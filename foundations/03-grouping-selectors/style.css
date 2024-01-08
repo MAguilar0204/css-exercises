@@ -1,0 +1,26 @@
+#firstElement {
+    background-color: black;
+    color: white;
+}
+
+#secondElement {
+    background-color: yellow;
+}
+
+.sharedElement {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+/* Alternatively you can do just button as it will target both buttons in this case and there are no other buttons. This becomes much more difficult with more complex html pages but works for this exercise.
+button {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+Another method is to use the comma and adding both ids to apply the styling. 
+#firstElement,
+#secondElement {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+} */
